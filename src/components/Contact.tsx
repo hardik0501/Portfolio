@@ -153,7 +153,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-gray-300 text-sm">Email</p>
-                    <p className="text-white font-medium">hardikgothwal@example.com</p>
+                    <p className="text-white font-medium">hardikgothwal0501@gmail.com</p>
                   </div>
                 </motion.div>
 
@@ -166,7 +166,7 @@ const Contact: React.FC = () => {
                   </div>
                   <div>
                     <p className="text-gray-300 text-sm">Phone</p>
-                    <p className="text-white font-medium">+91 12345 67890</p>
+                    <p className="text-white font-medium">+91 78783 28851</p>
                   </div>
                 </motion.div>
 
@@ -212,7 +212,7 @@ const Contact: React.FC = () => {
                 </motion.a>
 
                 <motion.a
-                  href="https://wa.me/1234567890"
+                  href="https://wa.me/+917878328851"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-14 h-14 bg-gray-700 rounded-xl flex items-center justify-center hover:bg-green-500 transition-colors duration-300"
