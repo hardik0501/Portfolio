@@ -39,9 +39,13 @@ const Hero: React.FC = () => {
           animate={{ scale: 1 }}
           transition={{ delay: 0.8, duration: 0.8, type: "spring" }}
         >
-          <div className="w-32 h-32 mx-auto bg-gradient-to-br from-purple-400 to-blue-400 rounded-full flex items-center justify-center shadow-2xl">
-            <span className="text-4xl font-bold text-white">HG</span>
-          </div>
+         <div className="w-32 h-32 mx-auto bg-gradient-to-br from-purple-400 to-blue-400 rounded-full flex items-center justify-center shadow-2xl">
+            <img 
+  src="https://img.freepik.com/premium-vector/cartoon-character-with-hat-goggles-his-head_188253-10794.jpg" 
+  alt="HG Profile" 
+  className="h-28 w-22 rounded-full object-cover border-2 border-white"
+/>
+ </div>
         </motion.div>
 
         <motion.h1
