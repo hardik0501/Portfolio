@@ -123,6 +123,13 @@ const About: React.FC = () => {
                     </div>
                     <p className="text-sm text-gray-400">Full-stack development internship</p>
                   </div>
+                  <div>
+                    <div className="flex justify-between mb-1">
+                      <span className="text-gray-300 font-medium">Linux World</span>
+                      <span className="text-cyan-400 text-sm">Agentic and Multiple Devloper</span>
+                    </div>
+                    <p className="text-sm text-gray-400">The Creator internship</p>
+                  </div>
                 </div>
               </motion.div>
 
