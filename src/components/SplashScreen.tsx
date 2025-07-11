@@ -41,7 +41,7 @@ const SplashScreen: React.FC<SplashScreenProps> = ({ onComplete }) => {
           animate={{ y: 0, opacity: 1 }}
           transition={{ delay: 1.5, duration: 0.8 }}
         >
-          Welcome to My World
+          Welcome to My Portfolio
         </motion.h1>
 
         <motion.p
