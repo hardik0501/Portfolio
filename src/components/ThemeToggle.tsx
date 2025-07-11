@@ -9,10 +9,7 @@ interface ThemeToggleProps {
 
 const ThemeToggle: React.FC<ThemeToggleProps> = ({ theme, setTheme }) => {
   const themes = [
-    { name: 'Dark', value: 'dark', colors: ['#8B5CF6', '#06B6D4'] },
-    { name: 'Cyberpunk', value: 'cyberpunk', colors: ['#FF00FF', '#00FFFF'] },
-    { name: 'Dusk', value: 'dusk', colors: ['#FF6B6B', '#4ECDC4'] },
-    { name: 'Matrix', value: 'matrix', colors: ['#00FF00', '#008000'] }
+    { name: 'Dark', value: 'dark', colors: ['#8B5CF6', '#06B6D4'] }
   ];
 
   return (
