@@ -7,81 +7,90 @@ const Projects: React.FC = () => {
 
   const projects = [
     {
+      title: 'Portfolio',
+      description: 'Portfolio .',
+      image: 'https://tse3.mm.bing.net/th/id/OIP.IXNzh9MZ6I2-vSoXVTWCUgHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800',
+      tags: ['React', 'Firebase', 'Html', 'Css'],
+      category: 'Ai',
+      github: 'https://github.com/hardik0501/Portfolio',
+      demo: 'https://hardikresume.netlify.app/'
+    },
+    {
       title: 'Prompt_ai',
       description: 'AI-powered prompt generation tool for enhanced creativity and productivity.',
-      image: 'https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://assets-global.website-files.com/637e5037f3ef83b76dcfc8f9/6568ca022c2dae81ddaa7492_What%20are%20the%20Primary%20Use%20Cases%20for%20AI%20Assistants-p-1600.jpg?auto=compress&cs=tinysrgb&w=800',
       tags: ['AI', 'React', 'Python', 'OpenAI'],
       category: 'AI',
-      github: 'https://github.com/hardik0501/prompt_ai',
+      github: 'https://github.com/hardik0501/Prompt_ai',
       demo: 'https://prompt-ai-demo.vercel.app'
     },
     {
       title: 'AIFF',
       description: 'Advanced Image Format Framework for optimized image processing.',
-      image: 'https://images.pexels.com/photos/7715995/pexels-photo-7715995.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://i.insider.com/661fd4c049058e669356d7d1?width=1200&format=jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['Python', 'OpenCV', 'AI', 'Image Processing'],
       category: 'AI',
-      github: 'https://github.com/hardik0501/aiff',
+      github: 'https://github.com/hardik0501/AIFF',
       demo: 'https://aiff-demo.vercel.app'
     },
     {
       title: 'Student Management',
       description: 'Comprehensive student management system with grade tracking and analytics.',
-      image: 'https://images.pexels.com/photos/5212339/pexels-photo-5212339.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://wpschoolpress.com/wp-content/uploads/2023/03/student-management-system.png?auto=compress&cs=tinysrgb&w=800',
       tags: ['React', 'Node.js', 'MongoDB', 'Express'],
       category: 'Full Stack',
-      github: 'https://github.com/hardik0501/student_management',
+      github: 'https://github.com/hardik0501/Student_mangement',
       demo: 'https://student-mgmt-demo.vercel.app'
     },
     {
       title: 'Medimate',
       description: 'Healthcare application for medical appointment scheduling and management.',
-      image: 'https://images.pexels.com/photos/5999936/pexels-photo-5999936.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://img.freepik.com/premium-vector/virtual-ai-doctor-assistant-onboarding-page-vector-graphic-illustration_780136-34.jpg?auto=compress&cs=tinysrgb&w=800',
       tags: ['React', 'Firebase', 'Flutter', 'Health'],
       category: 'Health',
-      github: 'https://github.com/hardik0501/medimate',
+      github: 'https://github.com/hardik0501/Medimate',
       demo: 'https://medimate-demo.vercel.app'
     },
     {
       title: 'Gemstack',
       description: 'Modern web development stack with integrated AI capabilities.',
-      image: 'https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://tse2.mm.bing.net/th/id/OIP.66dMXisTsz89fAw4DrXMfwHaGt?r=0&rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800',
       tags: ['React', 'TypeScript', 'AI', 'Full Stack'],
       category: 'Web',
-      github: 'https://github.com/hardik0501/gemstack',
+      github: 'https://github.com/hardik0501/Gemstack',
       demo: 'https://gemstack-demo.vercel.app'
     },
     {
       title: 'IP Location Tracker',
       description: 'Real-time IP geolocation tracking with interactive maps.',
-      image: 'https://images.pexels.com/photos/1420440/pexels-photo-1420440.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://tse1.mm.bing.net/th/id/OIP.s0JLzL1iNo1EzQY_xEQwBgHaDr?r=0&rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800',
       tags: ['JavaScript', 'Maps API', 'Geolocation'],
       category: 'Web',
-      github: 'https://github.com/hardik0501/ip_location_tracker',
+      github: 'https://github.com/hardik0501/Ip_location_tracker',
       demo: 'https://ip-tracker-demo.vercel.app'
     },
     {
       title: 'Path2College',
       description: 'Educational platform for college admission guidance and career counseling.',
-      image: 'https://images.pexels.com/photos/5212345/pexels-photo-5212345.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://tse1.mm.bing.net/th/id/OIP.Bd3GLKIA16d0EqTKjdtlBwHaE8?r=0&rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800',
       tags: ['React', 'Node.js', 'Education', 'MongoDB'],
       category: 'Web',
-      github: 'https://github.com/hardik0501/path2college',
+      github: 'https://github.com/hardik0501/Path2College-',
       demo: 'https://path2college-demo.vercel.app'
     },
     {
       title: 'House Price Predictor',
       description: 'Machine learning model for accurate house price predictions.',
-      image: 'https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://tse1.mm.bing.net/th/id/OIP.YtkKUnScoqtUhum8i9G88gHaEO?r=0&rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800',
       tags: ['Python', 'ML', 'Scikit-learn', 'Data Science'],
       category: 'ML',
-      github: 'https://github.com/hardik0501/house_predict',
+      github: 'https://github.com/hardik0501/House_predit',
       demo: 'https://house-predict-demo.vercel.app'
     },
     {
       title: 'Stock Market Analysis',
       description: 'Advanced stock market analysis tool with predictive algorithms.',
-      image: 'https://images.pexels.com/photos/210607/pexels-photo-210607.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://tse1.mm.bing.net/th/id/OIP.-Nwer29laYHf_x930-R_uQHaEC?r=0&rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800',
       tags: ['Python', 'Data Analysis', 'Finance', 'ML'],
       category: 'ML',
       github: 'https://github.com/hardik0501/stock_market_analysis',
@@ -90,28 +99,28 @@ const Projects: React.FC = () => {
     {
       title: 'Vocal Vibe',
       description: 'Voice-based social platform with speech recognition and synthesis.',
-      image: 'https://images.pexels.com/photos/3945662/pexels-photo-3945662.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://i.ytimg.com/vi/e68t7OnatyM/maxresdefault.jpg?auto=compress&cs=tinysrgb&w=800',
       tags: ['React', 'Web Speech API', 'Audio Processing'],
       category: 'AI',
-      github: 'https://github.com/hardik0501/vocal_vibe',
+      github: 'https://github.com/hardik0501/Vocal_vibe',
       demo: 'https://vocal-vibe-demo.vercel.app'
     },
     {
       title: 'Linux AI',
       description: 'AI-powered Linux system management and automation tools.',
-      image: 'https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://tse2.mm.bing.net/th/id/OIP.dG7wrCT2hcY4lh2XXGSjzQHaHa?r=0&rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800',
       tags: ['Python', 'Linux', 'AI', 'DevOps'],
       category: 'DevOps',
-      github: 'https://github.com/hardik0501/linux_ai',
+      github: 'https://github.com/hardik0501/Linux_AI',
       demo: 'https://linux-ai-demo.vercel.app'
     },
     {
       title: 'Health Tracker',
       description: 'Comprehensive health tracking application with data visualization.',
-      image: 'https://images.pexels.com/photos/4386464/pexels-photo-4386464.jpeg?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://tse3.mm.bing.net/th/id/OIP.CCmu_CXS2r7A5xN9-H_g0wHaEO?r=0&rs=1&pid=ImgDetMain&o=7&rm=3',
       tags: ['React', 'Firebase', 'Health', 'Charts'],
       category: 'Health',
-      github: 'https://github.com/hardik0501/tracking_health',
+      github: 'https://github.com/hardik0501/Tracking_health',
       demo: 'https://health-tracker-demo.vercel.app'
     }
   ];
