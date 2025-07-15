@@ -36,7 +36,7 @@ const Projects: React.FC = () => {
     {
       title: 'BackupFiles',
       description: 'Taking backup daily life  .',
-      image: 'https://media.istockphoto.com/id/488084632/vector/backup-date-sign-icon-storage-symbol.jpg?s=170667a&w=0&k=20&c=d1OSBOy8QsUe5aBOE_fRBXEjTDMKD8uO5xG922kOgFE=?auto=compress&cs=tinysrgb&w=800',
+      image: 'https://media.istockphoto.com/id/488084632/vector/backup-date-sign-icon-storage-symbol.jpg?s=170667a&w=0&k=20&c=d1OSBOy8QsUe5aBOE_fRBXEjTDMKD8uO5xG922kOgFE=',
       tags: ['Flask', 'js', 'Html', 'Css'],
       category: 'Web',
       github: 'https://github.com/hardik0501/backup',
