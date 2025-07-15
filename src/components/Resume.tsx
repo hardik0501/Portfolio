@@ -8,7 +8,7 @@ const Resume: React.FC = () => {
   const handleDownload = () => {
     // Create a mock download
     const link = document.createElement('a');
-    link.href = '/resume.pdf'; // In a real app, this would be the actual resume URL
+    link.href = 'https://drive.google.com/file/d/1Msa6Cc4Q8BJjZFjcjVoZxUd2DKgYgiAq/view?usp=sharing'; // In a real app, this would be the actual resume URL
     link.download = 'Hardik_Gothwal_Resume.pdf';
     link.click();
   };
@@ -47,7 +47,7 @@ const Resume: React.FC = () => {
                 </div>
                 <div>
                   <h3 className="text-xl font-semibold text-white">My Resume</h3>
-                  <p className="text-gray-400">Updated January 2025</p>
+                  <p className="text-gray-400">Updated July 2025</p>
                 </div>
               </div>
 
@@ -65,6 +65,7 @@ const Resume: React.FC = () => {
                       <div className="text-sm text-gray-600 space-y-1">
                         <p>• MERN Stack Developer - Regex Software</p>
                         <p>• Frontend Developer - Learn & Build</p>
+                        <p>• Multiple Developer - Linux World</p>
                       </div>
                     </div>
                     
