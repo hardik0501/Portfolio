@@ -18,7 +18,7 @@ const Certifications: React.FC = () => {
       provider: 'Regex Software',
       date: '2024',
       description: 'Full-stack development internship focusing on MongoDB, Express, React, and Node.js.',
-      credential: 'https://certificate-url.com/mern',
+      credential: 'https://certificate.givemycertificate.com/c/54c9b4b7-ab4b-4f1e-82b3-03fa215fcb49',
       icon: '⚡',
       color: 'from-blue-500 to-cyan-500'
     },
