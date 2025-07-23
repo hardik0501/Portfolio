@@ -7,7 +7,7 @@ const Certifications: React.FC = () => {
     {
       title: 'Frontend Development Internship',
       provider: 'Learn & Build',
-      date: '2024',
+      date: '2023',
       description: 'Completed comprehensive frontend development training with hands-on projects.',
       credential: 'https://certificate-url.com/frontend',
       icon: '🎨',
@@ -32,12 +32,12 @@ const Certifications: React.FC = () => {
       color: 'from-green-500 to-teal-500'
     },
     {
-      title: 'Flask Web Development',
-      provider: 'Web Development Course',
-      date: '2023',
-      description: 'Building web applications with Flask framework and database integration.',
-      credential: 'https://certificate-url.com/flask',
-      icon: '🌐',
+      title: ' AWS Solutions Architecture ',
+      provider: ' Forage',
+      date: '2025',
+      description: 'Hosting architecture based on Elastic.',
+      credential: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/pmnMSL4QiQ9JCgE3W/kkE9HyeNcw6rwCRGw_pmnMSL4QiQ9JCgE3W_MZcMSbx5Lm4JPwbiq_1753282087377_completion_certificate.pdf',
+      icon: '🐧',
       color: 'from-orange-500 to-red-500'
     },
     {
