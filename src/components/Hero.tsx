@@ -41,7 +41,7 @@ const Hero: React.FC = () => {
         >
          <div className="w-32 h-32 mx-auto bg-gradient-to-br from-purple-400 to-blue-400 rounded-full flex items-center justify-center shadow-2xl">
             <img 
-  src="https://img.freepik.com/premium-vector/cartoon-character-with-hat-goggles-his-head_188253-10794.jpg" 
+  src="https://drive.google.com/file/d/1WA4obS_RIIpCkE0bTKPptIAcEnGQLoi7/view?usp=sharing" 
   alt="HG Profile" 
   className="h-28 w-22 rounded-full object-cover border-2 border-white"
 />
