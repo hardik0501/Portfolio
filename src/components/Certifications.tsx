@@ -41,20 +41,20 @@ const Certifications: React.FC = () => {
       color: 'from-orange-500 to-red-500'
     },
     {
-      title: 'Git & GitHub',
-      provider: 'Version Control Certification',
-      date: '2023',
-      description: 'Version control systems, collaboration workflows, and best practices.',
-      credential: 'https://certificate-url.com/git',
+      title: 'GenAI',
+      provider: 'BCG Forage',
+      date: '2025',
+      description: ' Generative AI with hands-on expertise in building AI-powered solutions using large language models and advanced automation tools.',
+      credential: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/SKZxezskWgmFjRvj9/gabev3vXhuACr48eb_SKZxezskWgmFjRvj9_MZcMSbx5Lm4JPwbiq_1750695047558_completion_certificate.pdf',
       icon: '🔧',
       color: 'from-indigo-500 to-purple-500'
     },
     {
-      title: 'Responsive Web Design',
-      provider: 'FreeCodeCamp',
+      title: 'Data Analytics',
+      provider: 'Tata',
       date: '2023',
-      description: 'HTML, CSS, and responsive design principles for modern web development.',
-      credential: 'https://certificate-url.com/responsive',
+      description: 'job simulation involving AI-powered data analytics and strategy development for the Financial Services team at Tata iQ',
+      credential: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/ifobHAoMjQs9s6bKS/gMTdCXwDdLYoXZ3wG_ifobHAoMjQs9s6bKS_MZcMSbx5Lm4JPwbiq_1750340610526_completion_certificate.pdf',
       icon: '📱',
       color: 'from-pink-500 to-purple-500'
     }
