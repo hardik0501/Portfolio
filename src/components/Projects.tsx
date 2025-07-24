@@ -33,6 +33,15 @@ const Projects: React.FC = () => {
       github: 'https://github.com/hardik0501/AIFF',
       demo: 'https://aiff-demo.vercel.app'
     },
+     {
+      title: 'Flight Booking',
+      description: 'Booking Platform',
+      image: 'https://static.vecteezy.com/system/resources/previews/007/240/532/non_2x/online-flight-booking-app-flat-illustration-vector.jpg?auto=compress&cs=tinysrgb&w=800',
+      tags: ['React', 'Firebase', 'Html', 'Css'],
+      category: 'Web',
+      github: 'https://github.com/hardik0501/FlightBooking',
+      demo: 'https://hardik0501.github.io/FlightBooking/'
+    },
     {
       title: 'BackupFiles',
       description: 'Taking backup daily life  .',
