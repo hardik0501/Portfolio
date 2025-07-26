@@ -23,10 +23,10 @@ const Certifications: React.FC = () => {
       color: 'from-blue-500 to-cyan-500'
     },
     {
-      title: 'Python Programming',
-      provider: 'Online Certification',
-      date: '2023',
-      description: 'Advanced Python programming concepts including data structures and algorithms.',
+      title: 'Agentic Ai',
+      provider: 'Linux World',
+      date: '2025',
+      description: 'Learning Multiple tech skills in internship ',
       credential: 'https://certificate-url.com/python',
       icon: '🐍',
       color: 'from-green-500 to-teal-500'
