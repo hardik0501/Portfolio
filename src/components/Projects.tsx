@@ -51,6 +51,15 @@ const Projects: React.FC = () => {
       github: 'https://github.com/hardik0501/backup',
       demo: 'https://hardik0501.github.io/backup/'
     },
+     {
+      title: 'Feedback-Tracker',
+      description: 'Smart Tracker CiCd',
+      image: 'https://i.pinimg.com/originals/8b/a9/3a/8ba93a720063a635a713442e3b0697ca.png?auto=compress&cs=tinysrgb&w=800',
+      tags: ['Flask', 'Docker', 'Jenkins', 'Html'],
+      category: 'DevOps',
+      github: 'https://github.com/hardik0501/FeedbackCiCD',
+      demo: 'http://localhost:5000/'
+    },
     {
       title: 'Optify',
       description: 'Song Webapp',
