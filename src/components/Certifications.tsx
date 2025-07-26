@@ -26,7 +26,7 @@ const Certifications: React.FC = () => {
       title: 'Agentic Ai',
       provider: 'Linux World',
       date: '2025',
-      description: 'Learning Multiple tech skills in internship ',
+      description: 'Learning Multiple tech skills in Internship and Cover up mostly tech like Ai&Ml , Prompt engineering ... ',
       credential: 'https://certificate-url.com/python',
       icon: '🐍',
       color: 'from-green-500 to-teal-500'
