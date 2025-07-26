@@ -52,6 +52,15 @@ const Projects: React.FC = () => {
       demo: 'https://hardik0501.github.io/backup/'
     },
     {
+      title: 'Optify',
+      description: 'Song Webapp',
+      image: 'https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/d9ad3a160833917.63bbc141497a0.png?auto=compress&cs=tinysrgb&w=800',
+      tags: ['React', 'Firebase', 'Html', 'Css'],
+      category: 'Web',
+      github: 'https://github.com/hardik0501/optify',
+      demo: 'https://hardikresume.netlify.app/'
+    },
+    {
       title: 'Student Management',
       description: 'Comprehensive student management system with grade tracking and analytics.',
       image: 'https://wpschoolpress.com/wp-content/uploads/2023/03/student-management-system.png?auto=compress&cs=tinysrgb&w=800',
