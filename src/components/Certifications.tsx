@@ -35,7 +35,7 @@ const Certifications: React.FC = () => {
       title: ' AWS Solutions Architecture ',
       provider: ' Forage',
       date: '2025',
-      description: 'Hosting architecture based on Elastic.',
+      description: 'Design framework that outlines how to efficiently build, deploy, and manage scalable, secure, and cost-effective applications on Amazon Web Services.',
       credential: 'https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/pmnMSL4QiQ9JCgE3W/kkE9HyeNcw6rwCRGw_pmnMSL4QiQ9JCgE3W_MZcMSbx5Lm4JPwbiq_1753282087377_completion_certificate.pdf',
       icon: '🐧',
       color: 'from-orange-500 to-red-500'
