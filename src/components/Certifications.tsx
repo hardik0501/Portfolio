@@ -32,6 +32,15 @@ const Certifications: React.FC = () => {
       color: 'from-green-500 to-teal-500'
     },
     {
+      title: 'Linux-Ai With GenAi',
+      provider: 'Udemy',
+      date: '2025',
+      description: 'Understanding of Linux automation and how to leverage Generative AI to streamline system-level tasks efficiently',
+      credential: 'https://udemy-certificate.s3.amazonaws.com/image/UC-e91890e9-4fbb-4249-b164-b2ef6c651464.jpg',
+      icon: '🖥️',
+      color: 'from-purple-500 to-pink-500'
+    },
+    {
       title: ' AWS Solutions Architecture ',
       provider: ' Forage',
       date: '2025',
