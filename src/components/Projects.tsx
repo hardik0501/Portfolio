@@ -8,7 +8,7 @@ const Projects: React.FC = () => {
   const projects = [
     {
       title: 'Portfolio',
-      description: 'Portfolio .',
+      description: 'About Me , Projects , Certifications',
       image: 'https://tse3.mm.bing.net/th/id/OIP.IXNzh9MZ6I2-vSoXVTWCUgHaE7?r=0&rs=1&pid=ImgDetMain&o=7&rm=3?auto=compress&cs=tinysrgb&w=800',
       tags: ['React', 'Firebase', 'Html', 'Css'],
       category: 'Ai',
@@ -26,7 +26,7 @@ const Projects: React.FC = () => {
     },
     {
       title: 'AIFF',
-      description: 'Advanced Image Format Framework for optimized image processing.',
+      description: 'Ai Life partner to talk like GF/BF....',
       image: 'https://i.insider.com/661fd4c049058e669356d7d1?width=1200&format=jpeg?auto=compress&cs=tinysrgb&w=800',
       tags: ['Python', 'OpenCV', 'AI', 'Image Processing'],
       category: 'AI',
