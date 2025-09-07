@@ -43,7 +43,7 @@ const Hero: React.FC = () => {
             <img 
   src="https://ibb.co/Y44dnzSy" 
   alt="HG Profile" 
-  className="h-28 w-22 rounded-full object-cover border-2 border-white"
+  className="h-58 w-52 rounded-full object-cover border-2 border-white"
 />
  </div>
         </motion.div>
