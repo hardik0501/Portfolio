@@ -41,9 +41,9 @@ const Hero: React.FC = () => {
         >
          <div className="w-32 h-32 mx-auto bg-gradient-to-br from-purple-400 to-blue-400 rounded-full flex items-center justify-center shadow-2xl">
             <img 
-  src="https://ibb.co/Y44dnzSy" 
+  src="https://i.ibb.co/rKKp8Chc/Screenshot-2025-02-11-194501.png" 
   alt="HG Profile" 
-  className="h-58 w-52 rounded-full object-cover border-2 border-white"
+  className="h-28 w-22 rounded-full object-cover border-2 border-white"
 />
  </div>
         </motion.div>
